@@ -1,0 +1,40 @@
+class Employee{
+	String name;
+	int yearOfJoining;
+	float salary;
+	String address;
+public void name() {
+	System.out.println("Robert");
+	System.out.println("Sam");
+	System.out.println("John");
+}
+public void address() {
+	System.out.println("64C-WalllsStreet");
+	System.out.println("26B-WallsStreet");
+	System.out.println("68D-WallsStreet");
+}
+public void yearOfJoining() {
+	System.out.println("1994");
+	System.out.println("2000");
+	System.out.println("1999");
+}
+public void salary() {
+	System.out.println("1,00,000");
+	System.out.println("2,50,000");
+	System.out.println("75,000");
+}
+}
+public class Info {
+
+	public static void main(String[] args) {
+		Employee em = new Employee();
+		em.name();
+		em.address();
+		em.yearOfJoining();
+		em.salary();
+	}
+		
+
+	}
+
+
